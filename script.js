@@ -25,7 +25,7 @@ function addTask() {
     );
     btnDiv.style.width = "30%";
 
-    edit.setAttribute("class", "btn btn-outline-secondary");
+    edit.setAttribute("class", "btn btn-outline-secondary me-1");
     edit.innerHTML = "Edit";
 
     del.setAttribute("class", "btn btn-outline-danger");
