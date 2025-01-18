@@ -1,7 +1,7 @@
 function addTask() {
   var input = document.getElementById("taskInput");
 
-  if (input != "") {
+  if (input.textContent !== "") {
     var todo = document.getElementById("todoList");
     var span = document.createElement("span");
     var listItem = document.createElement("li");
