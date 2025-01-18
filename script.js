@@ -59,8 +59,8 @@ function addTask() {
     btnDiv.appendChild(edit);
     btnDiv.appendChild(del);
 
-    listItem.appendChild(btnDiv);
     listItem.appendChild(textDiv);
+    listItem.appendChild(btnDiv);
 
     todo.appendChild(listItem);
 
